@@ -3,10 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title>Comidas Preferidas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .btn-volver {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn-volver:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
   <h1>Comidas Preferidas</h1>
-  <table border="1">
+  <table>
     <tr>
       <th>Comida</th>
       <th>Tipo</th>
@@ -24,6 +54,8 @@
       <td>Argentina</td>
     </tr>
   </table>
-  <a href="index.html">Volver al inicio</a>
+
+  <!-- Botón para volver al index -->
+  <a href="index.html" class="btn-volver">Volver al inicio</a>
 </body>
 </html>
